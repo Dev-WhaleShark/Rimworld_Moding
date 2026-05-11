@@ -6,7 +6,7 @@
 
 		<!-- Modify RootNamespace, AssemblyName, OutputPath, VersionPrefix -->
 		<RootNamespace>Template</RootNamespace>
-		<AssemblyName>Template</AssemblyName>
+		<AssemblyName>MyTestMode</AssemblyName>
 		<OutputPath>../1.6/Assemblies</OutputPath>
 		<VersionPrefix>0.1.0.0</VersionPrefix>
 

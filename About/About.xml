@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>username.modname</packageId>
-	<name>Mod Template</name>
-	<author>username</author>
+	<packageId>WhaleShak.MyTestMode</packageId>
+	<name>MyTestMode</name>
+	<author>WhaleShak</author>
 	<!-- <modIconPath>path/to/icon</modIconPath> -->
 	<supportedVersions>
 		<li>1.6</li>
@@ -29,5 +29,5 @@
 		<!-- <li>username.modname</li> -->
 	</loadAfter>
 
-	<description>Template</description>
+	<description>My Test Mode</description>
 </ModMetaData>

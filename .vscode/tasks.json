@@ -8,9 +8,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": [
-                "dotnet build .vscode"
-            ],
+            "command": "${workspaceFolder}\\build_mod.bat",
+            "problemMatcher": "$msCompile"
         },
         {
             "label": "BuildLinuxDLL",
@@ -19,9 +18,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": [
-                "dotnet build .vscode"
-            ],
+            "command": "${workspaceFolder}/build_mod.sh",
+            "problemMatcher": "$msCompile"
         }
     ]
 }

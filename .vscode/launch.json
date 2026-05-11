@@ -8,22 +8,23 @@
             "name": "Build & Run",
             "type": "node", // VSC doesn't have a `shell` type, use built in `node` type instead
             "request": "launch",
-            "cwd": "${workspaceFolder}/../../",
+            "cwd": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld",
             "console": "internalConsole",
-            "internalConsoleOptions":"neverOpen",
+            "internalConsoleOptions": "neverOpen",
             "windows": {
-                "runtimeExecutable": "${workspaceFolder}/../../RimWorldWin64.exe",
+                "runtimeExecutable": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\RimWorldWin64.exe",
                 "preLaunchTask": "BuildWindowsDLL",
             },
             "linux": {
                 // https://github.com/pardeike/Rimworld-Doorstop?tab=readme-ov-file#quick-start--linux-with-rider
                 "runtimeExecutable": "sh",
-                "runtimeArgs": [ 
-                    "-c", "if [ -f ./run.sh ]; then ./run.sh; else ./RimWorldLinux; fi"
+                "runtimeArgs": [
+                    "-c",
+                    "if [ -f ./run.sh ]; then ./run.sh; else ./RimWorldLinux; fi"
                 ],
                 "preLaunchTask": "BuildLinuxDLL",
             }
-        },  
+        },
         {
             "name": "Attach Debugger",
             "type": "mono",

@@ -28,7 +28,7 @@ namespace Template
 
     public class MyMapComponent : MapComponent
     {
-        public MyMapComponent(Map map) : base(map){}
+        public MyMapComponent(Map map) : base(map) { }
         public override void FinalizeInit()
         {
             Messages.Message("Success", null, MessageTypeDefOf.PositiveEvent);
@@ -41,8 +41,7 @@ namespace Template
     {
         static Start()
         {
-            Log.Message("Mod template loaded successfully!");
-
+            Log.Message("[MyFirstMod] RimWorld 모드 로드됨!");
             // *Uncomment for Harmony*
             // Harmony harmony = new Harmony("Template");
             // harmony.PatchAll( Assembly.GetExecutingAssembly() );
